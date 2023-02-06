@@ -4,8 +4,8 @@ export default defineConfig({
   shopify: {
     defaultCountryCode: 'US',
     defaultLanguageCode: 'EN',
-    storeDomain: 'hydrogen-preview.myshopify.com',
-    storefrontToken: '3b580e70970c4528da70c98e097c2fa0',
+    storeDomain: 'digitalresource876.myshopify.com',
+    storefrontToken: '9501eb0e81897ee77025c1c279a38684',
     storefrontApiVersion: '2022-07',
   },
   session: CookieSessionStorage('__session', {

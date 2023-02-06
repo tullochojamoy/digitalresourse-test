@@ -45,5 +45,17 @@
     "title": "^3.4.4",
     "typographic-base": "^1.0.4"
   },
-  "author": "nrajlich"
+  "author": "nrajlich",
+  "main": ".eslintrc.js",
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tullochojamoy/digitalresourse-test.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tullochojamoy/digitalresourse-test/issues"
+  },
+  "homepage": "https://github.com/tullochojamoy/digitalresourse-test#readme"
 }
