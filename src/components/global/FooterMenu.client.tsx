@@ -55,8 +55,14 @@ export function FooterMenu({menu}: {menu?: EnhancedMenu}) {
                     onChange={(e) => setEmail(e.target.value)}
                     value={email}
                     required
+                    className='text-black rounded'
                   />
-                  <button type="submit">Submit</button>
+                  <button
+                    type="submit"
+                    className="bg-blue-500 hover:bg-blue-700 text-white h-full rounded"
+                  >
+                    <div className='p-1'>Submit</div>
+                  </button>
                 </form>
                 <Disclosure.Button className="text-left md:cursor-default">
                   <Heading className="flex justify-between" size="lead" as="h3">
